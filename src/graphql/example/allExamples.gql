@@ -1,0 +1,13 @@
+{
+  allExamples {
+    edges {
+      node {
+        id
+        name
+        lastname
+        createdAt
+        updatedAt
+      }
+    }
+  }
+}

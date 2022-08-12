@@ -1,0 +1,13 @@
+mutation createPet($name: String!, $type: String!, $age: Int!, $neutering: Boolean, $breed: String, $sex: String!) {
+  createPet(input: {name: $name, type: $type, age: $age, neutering: $neutering, breed: $breed, sex: $sex}) {
+    pet {
+      id
+      name
+      type
+      age
+      neutering
+      breed
+      sex
+    }
+  }
+}

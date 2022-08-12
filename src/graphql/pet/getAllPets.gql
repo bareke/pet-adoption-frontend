@@ -1,0 +1,17 @@
+query {
+  allPets {
+    edges {
+      node {
+        id
+        name
+        type
+        age
+        neutering
+        breed
+        sex
+        createdAt
+        updateAt
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+query example($id: ID!) {
+  example(id: $id) {
+    id
+    name
+    lastname
+    createdAt
+    updatedAt
+  }
+}

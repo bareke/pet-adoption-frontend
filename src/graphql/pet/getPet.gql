@@ -1,0 +1,11 @@
+query getPet($id: ID!) {
+  pet(id: $id) {
+    id
+    name
+    type
+    age
+    neutering
+    breed
+    sex
+  }
+}
